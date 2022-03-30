@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-
+from selenium.webdriver.common.service import Service
+# s=Service(executable_path='D:\drivers\chromedriver.exe')
 driver=webdriver.Chrome(executable_path="D:\drivers\chromedriver.exe")
 driver.get("http://demo.guru99.com/test/write-xpath-table.html")
 driver.maximize_window()
