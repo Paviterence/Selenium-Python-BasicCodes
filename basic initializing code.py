@@ -7,8 +7,8 @@ from selenium import webdriver
 #from webdriver_manager.chrome import  ChromeDriver
 #from selenium.webdriver.support.ui import WebDriverWait
 #import selenium_browser
-#driver=webdriver.Chrome(executable_path="D:\drivers\chromedriver.exe")
-#driver=webdriver.Firefox(executable_path="D:\drivers\geckodriver.exe")
+driver=webdriver.Chrome(executable_path="D:\drivers\chromedriver.exe")
+driver=webdriver.Firefox(executable_path="D:\drivers\geckodriver.exe")
 #driver=webdriver.Edge(executable_path="D:\drivers\msedgedriver")
 # s=Service(executable_path='D:\drivers\chromedriver.exe')
 # driver = webdriver.Chrome(service=s)
