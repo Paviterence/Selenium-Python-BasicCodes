@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-driver=webdriver.Chrome("D:\drivers\chromedriver.exe")
+driver=webdriver.Chrome()
 driver.maximize_window()
 driver.get("https://www.part66easa.com/")
 time.sleep(2)

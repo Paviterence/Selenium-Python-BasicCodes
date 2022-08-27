@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 search=input("what you want\n:")
-driver=webdriver.Chrome(executable_path='D:\drivers\chromedriver.exe')
+driver=webdriver.Chrome()
 driver.maximize_window()
 driver.get("https://www.homedepot.com/")
 print(driver.title)

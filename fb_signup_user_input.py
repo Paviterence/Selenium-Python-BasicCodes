@@ -14,7 +14,7 @@ month=str(input("enter the month:\n"))
 year=int(input("enter the year:\n"))
 sex=str(input("Enter the sex female or male or custom:\n"))
 
-browser=webdriver.Chrome(executable_path='D:\drivers\chromedriver.exe')
+browser=webdriver.Chrome()
 browser.get("https://www.facebook.com/")
 browser.maximize_window()
 print("url is:\n",browser.current_url)

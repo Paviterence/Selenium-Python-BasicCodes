@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.alert import Alert
 #driver=webdriver.Chrome('G:\driver\chromedriver_win32\chromedriver.exe')#mypc
-driver=webdriver.Chrome("D:\drivers\chromedriver.exe")
+driver=webdriver.Chrome()
 driver.implicitly_wait(30)
 driver.get('http://demo.automationtesting.in/Index.html')
 driver.maximize_window()

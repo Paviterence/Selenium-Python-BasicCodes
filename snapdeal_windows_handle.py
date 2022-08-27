@@ -7,9 +7,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.chrome.service import Service
 search=input("what you want\n:")
-s=Service(executable_path='D:\drivers\chromedriver.exe')
-driver = webdriver.Chrome(service=s)
-# driver=webdriver.Chrome(executable_path='D:\drivers\chromedriver.exe')
+# s=Service(executable_path='D:\drivers\chromedriver.exe')
+# driver = webdriver.Chrome(service=s)
+driver=webdriver.Chrome()
 driver.maximize_window()
 driver.get("https://www.snapdeal.com/")
 print(driver.title)

@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as Ec
 from selenium.webdriver.chrome.service import Service
 
-driver=webdriver.Chrome(executable_path='D:\drivers\chromedriver.exe')
+driver=webdriver.Chrome()
 driver.implicitly_wait(5)
 driver.get('https://www.redbus.com/')
 element=WebDriverWait(driver,5).until(Ec.element_to_be_clickable((By.XPATH,'//button[text()="Accept All"]')))

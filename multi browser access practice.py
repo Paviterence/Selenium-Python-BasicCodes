@@ -3,7 +3,7 @@ from selenium import webdriver
 #from selenium.webdriver.common.by import  By
 #driver=webdriver.Chrome("D:\drivers\chromedriver.exe")
 #driver=webdriver.Firefox(executable_path="D:\drivers\geckodriver.exe")
-driver=webdriver.Edge(executable_path="D:\drivers\msedgedriver")
+driver=webdriver.Chrome()
 driver.get("https://www.google.com/")
 driver.maximize_window()
 print(driver.page_source)

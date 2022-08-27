@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.remote.remote_connection import RemoteConnection
 #driver=webdriver.Chrome('G:\driver\chromedriver_win32\chromedriver.exe')#my pc
 #driver=webdriver.Edge(executable_path='D:\drivers\msedgedriver.exe')
-driver=webdriver.Chrome("D:\drivers\chromedriver.exe")
+driver=webdriver.Chrome()
 #driver=webdriver.Firefox(executable_path="D:\drivers\geckodriver.exe")
 #driver.implicitly_wait(30)
 driver.get("https://www.instagram.com/")

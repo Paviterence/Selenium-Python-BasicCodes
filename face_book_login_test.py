@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 username =input("enter username or phonenumber:")
 password =input("enter the password:")
 
-driver = webdriver.Chrome("D:\drivers\chromedriver.exe")
+driver = webdriver.Chrome()
 driver.get("https://www.facebook.com/")
 driver.implicitly_wait(30)
 title=driver.title

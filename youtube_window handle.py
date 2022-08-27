@@ -6,10 +6,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 user_input=input("please enter what you want from youtube\n:")
-driver=webdriver.Chrome(executable_path='D:\drivers\chromedriver.exe')
-driver.fullscreen_window()
+driver=webdriver.Chrome()
 driver.get("https://www.youtube.com/")
-driver.fullscreen_window()
+driver.maximize_window()
 print((driver.title))
 print(driver.current_url)
 wait=WebDriverWait(driver,20)

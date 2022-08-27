@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.service import Service
 # s=Service('D:\drivers\chromedriver.exe')
 # driver = webdriver.Chrome(service=s)
-driver=webdriver.Chrome(executable_path='D:\drivers\chromedriver.exe')
+driver=webdriver.Chrome()
 driver.get("https://www.flipkart.com/")
 time.sleep(2)
 driver.maximize_window()

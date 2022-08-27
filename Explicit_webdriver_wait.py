@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import  WebDriverWait
 from selenium.webdriver.support import expected_conditions as Ec
-driver=webdriver.Chrome("D:\drivers\chromedriver.exe")#my pc
+driver=webdriver.Chrome()#my pc
 driver.get('https://app.hubspot.com/login')
 driver.set_page_load_timeout(30)#explict old method
 print(driver.title)

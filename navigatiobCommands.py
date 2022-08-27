@@ -4,7 +4,7 @@ import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
-driver=webdriver.Chrome(executable_path="D:\drivers\chromedriver.exe")
+driver=webdriver.Chrome()
 driver.get('https://www.youtube.com')
 driver.maximize_window()
 time.sleep(2)

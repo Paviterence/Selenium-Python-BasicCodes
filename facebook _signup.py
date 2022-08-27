@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-browser=webdriver.Chrome(executable_path='D:\drivers\chromedriver.exe')
+browser=webdriver.Chrome()
 browser.maximize_window()
 browser.get("https://www.facebook.com/")
 

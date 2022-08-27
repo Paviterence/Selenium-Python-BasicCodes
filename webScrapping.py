@@ -3,7 +3,7 @@ import time
 from openpyxl import Workbook
 from selenium import webdriver
 import openpyxl
-from selenium.webdriver import Keys
+# from selenium.webdriver.common import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
@@ -11,7 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import StaleElementReferenceException
 
 
-driver=webdriver.Chrome(executable_path="D:\drivers\chromedriver.exe")
+driver=webdriver.Chrome()
 driver.get('https://www.homechoice.co.za/home')
 driver.maximize_window()
 driver.implicitly_wait(5)

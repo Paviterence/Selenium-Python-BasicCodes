@@ -18,7 +18,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import  WebDriverWait
 from selenium.webdriver.support import expected_conditions as Ec
-driver=webdriver.Chrome("D:\drivers\chromedriver.exe")#my pc
+driver=webdriver.Chrome()#my pc
 #title1=WebDriverWait(driver,20).until(Ec.url_to_be('http://demo.automationtesting.in/Index.html'))
 driver.get('http://demo.automationtesting.in/Index.html')
 # driver.maximize_window()

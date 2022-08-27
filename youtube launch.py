@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 searchbox=input("what you want from youtube\n:")
-driver=webdriver.Chrome("D:\drivers\chromedriver.exe")
+driver=webdriver.Chrome()
 #driver=webdriver.Firefox(executable_path="D:\drivers\geckodriver.exe")
 #driver=webdriver.Edge(executable_path='D:\drivers\msedgedriver.exe')
 driver.get('https://www.youtube.com')

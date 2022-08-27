@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import service
 
 #driver = webdriver.Chrome(executable_path="G:\driver\chromedriver_win32\chromedriver.exe") #my computer
-driver=webdriver.Chrome("D:\drivers\chromedriver.exe")
+driver=webdriver.Chrome()
 driver.implicitly_wait(40)
 driver.get("https://www.facebook.com/")
 driver.find_element(By.XPATH,'//a[@role="button"and@data-testid="open-registration-form-button"]').click()

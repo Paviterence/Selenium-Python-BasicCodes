@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.alert import Alert
-driver=webdriver.Firefox(executable_path="D:\drivers\geckodriver.exe")
+driver=webdriver.Firefox()
 driver.implicitly_wait(30)
 driver.get('https://www.rediffmailpro.com/cgi-bin/login.cgi')
 print("Tittle is:",driver.title)

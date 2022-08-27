@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import service
 from selenium.webdriver.common.by import By
 searchbox=input("enter the sentence to search\n: ")
-driver=webdriver.Chrome("D:\drivers\chromedriver.exe")
+driver=webdriver.Chrome()
 driver.get("https://www.google.com/")
 driver.implicitly_wait(30)
 driver.maximize_window()

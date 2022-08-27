@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 search=input("what you want from amazon\n:")
-driver=webdriver.Chrome(executable_path='D:\drivers\chromedriver.exe')
+driver=webdriver.Chrome()
 driver.get("https://www.amazon.in/")
 print((driver.title))
 print(driver.current_url)
